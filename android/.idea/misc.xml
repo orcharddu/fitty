@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.3765625" />
+        <entry key="app/src/main/res/drawable/aa.xml" value="0.223" />
+        <entry key="app/src/main/res/drawable/ic_activity_food.xml" value="0.223" />
+        <entry key="app/src/main/res/drawable/ic_activity_sport.xml" value="0.223" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_add_pic.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_bar_code.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_barcode.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_book_activity_mask.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/ic_book_favor.xml" value="0.331" />
+        <entry key="app/src/main/res/drawable/ic_check.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_exercise_jogging.xml" value="0.223" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.331" />
+        <entry key="app/src/main/res/drawable/ic_triangle_down.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/ic_viewfinder.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_viewfinder2.xml" value="0.2335" />
+        <entry key="app/src/main/res/drawable/ic_zigzag.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/zigzag.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/layout/camera_activity_inference.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/challenge_activity_congratulation.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/challenge_activity_word_ladder.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/challenge_activity_word_ladder1.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/challenge_activity_word_ladder_header_item.xml" value="0.274903805044891" />
+        <entry key="app/src/main/res/layout/challenge_activity_word_ladder_item.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/main_activity.xml" value="0.2026507054296708" />
+        <entry key="app/src/main/res/layout/main_activity_history_item.xml" value="0.2836639932460954" />
+        <entry key="app/src/main/res/layout/main_bottom_sheet_exercise_plan.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/main_fragment_diary.xml" value="0.13177470775770456" />
+        <entry key="app/src/main/res/layout/main_fragment_me.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/main_fragment_today.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/main_fragment_today_content.xml" value="0.28730226592560926" />
+        <entry key="app/src/main/res/layout/record_activity_landing.xml" value="0.28730226592560926" />
+        <entry key="app/src/main/res/layout/recorder_activity_adding.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/recorder_activity_adding_bottom_sheet.xml" value="0.28730226592560926" />
+        <entry key="app/src/main/res/layout/recorder_activity_exercise.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/recorder_activity_exercise_item.xml" value="0.274903805044891" />
+        <entry key="app/src/main/res/layout/recorder_activity_landing.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/recorder_exercise_plan_item.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/recorder_fragment_default_food.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/recorder_fragment_exercise.xml" value="0.28730226592560926" />
+        <entry key="app/src/main/res/layout/recorder_fragment_favorite_food.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/recorder_fragment_favorite_food_item.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/recorder_fragment_favorite_food_item_withpic.xml" value="0.2864471996579735" />
+        <entry key="app/src/main/res/layout/recorder_fragment_food.xml" value="0.28730226592560926" />
+        <entry key="app/src/main/res/layout/recylerview_activity_history_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/view_exercise_plan.xml" value="0.2026507054296708" />
+        <entry key="app/src/main/res/layout/view_exercise_plan_item.xml" value="0.28730226592560926" />
+        <entry key="app/src/main/res/menu/main_nav.xml" value="0.2364258230012826" />
+        <entry key="app/src/main/res/menu/main_nav_bottom.xml" value="0.35104166666666664" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

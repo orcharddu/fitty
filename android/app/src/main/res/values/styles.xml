@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BottomNavigationTheme" parent="Theme.Fitty">
+        <item name="colorPrimary">@color/primary</item>
+<!--        <item name="android:textColorSecondary">@color/inactive_tab_color</item>-->
+    </style>
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BlueCalenderView" >
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+
+    <style name="OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- left and right padding -->
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+
+        <!-- top and bottom padding -->
+        <item name="android:paddingTop">28dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+
+</resources>

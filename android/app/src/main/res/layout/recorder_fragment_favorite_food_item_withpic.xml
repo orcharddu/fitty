@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_favorite_food"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/grey_dark">
+
+        <ImageView
+                android:id="@+id/img_food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sushi"/>
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_favorite_food_item_mask">
+        </FrameLayout>
+
+        <TextView
+                android:id="@+id/text_food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="15dp"
+                android:text="Food Name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white_text"
+                android:letterSpacing="0.06"
+                tools:ignore="HardcodedText"/>
+
+        <TextView
+                android:id="@+id/text_food_calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="15dp"
+                android:text="1234kCal"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white_text"
+                android:letterSpacing="0.04"
+                tools:ignore="HardcodedText"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

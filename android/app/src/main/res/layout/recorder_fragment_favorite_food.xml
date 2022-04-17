@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.recorder.fragment.FavoriteFoodRecorderFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <TextView
+            android:id="@+id/text_no_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:text="NO FAVORITE FOODS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:letterSpacing="0.10"
+            android:gravity="center"
+            android:textColor="@color/black_text"
+            tools:ignore="HardcodedText" />
+
+</FrameLayout>
