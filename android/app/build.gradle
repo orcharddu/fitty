@@ -13,6 +13,9 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "arm64-v8a"
+        }
     }
 
     buildTypes {
@@ -42,7 +45,6 @@ dependencies {
     def pytorch_version = "1.12"
     implementation fileTree(dir: "libs", include: ["*.aar"])
     implementation "com.github.PhilJay:MPAndroidChart:v3.1.0"
-//    implementation "com.haibin:calendarview:3.7.1"
     implementation "org.pytorch:pytorch_android_lite:$pytorch_version"
     implementation "org.pytorch:pytorch_android_torchvision_lite:$pytorch_version"
 
