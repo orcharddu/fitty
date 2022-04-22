@@ -239,7 +239,15 @@ class RecorderAddingActivity : BaseActivity() {
             }
 
 
-            sliderCalorie.setLabelFormatter { value: Float -> value.toInt().toString().let { "${it}kCal" } }
+            sliderCalorie.setLabelFormatter { value: Float ->
+                if (labelIndex == -1) {
+                    value.toInt().toString().let { "${it}kCal" }
+                } else {
+                    value.toInt().toString().let {"${value.toInt()}kCal " +
+                            "(${(value / Labels.foodLabels[labelIndex].calorie * Labels.foodLabels[labelIndex].weights).toInt()}gram)"
+                    }
+                }
+            }
 
             sliderCalorie.valueTo = 2000F
             sliderCalorie.value = 10F

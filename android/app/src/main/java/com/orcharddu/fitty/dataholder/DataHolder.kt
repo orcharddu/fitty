@@ -16,8 +16,8 @@ class DataHolder private constructor(
 
     private class Serializer(
         val user: User = User(
-            weights = mutableListOf(50),
-            heights = mutableListOf(175),
+            weights = mutableListOf(),
+            heights = mutableListOf(),
             useIntegratedCamera = true,
             calorieGoal = 0,
             favorites = mutableListOf()
@@ -51,8 +51,8 @@ class DataHolder private constructor(
 
     fun reset() {
         user.apply {
-            weights = mutableListOf(50)
-            heights = mutableListOf(175)
+            weights = mutableListOf()
+            heights = mutableListOf()
             useIntegratedCamera = true
             calorieGoal = 0
             favorites = mutableListOf()

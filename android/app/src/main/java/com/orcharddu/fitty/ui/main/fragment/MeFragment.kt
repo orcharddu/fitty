@@ -123,7 +123,7 @@ class MeFragment : Fragment() {
                         updateChart()
                     }
                     else -> {
-                        if (textWeight.text.isNotEmpty() && textHeight.text.isNotEmpty()) {
+                        if (textWeight.text.toString() != "—" && textHeight.text.toString() != "—") {
                             sliderWeight.value = textWeight.text.toString().toFloat()
                             sliderHeight.value = textHeight.text.toString().toFloat()
                         }
@@ -134,9 +134,9 @@ class MeFragment : Fragment() {
                 }
             }
 
-            textWeight.text = ""
-            textHeight.text = ""
-            textBmi.text = ""
+            textWeight.text = "—"
+            textHeight.text = "—"
+            textBmi.text = "—"
 
             DataHolder.instance().user.weights.let {
                 if (it.isNotEmpty()) {
@@ -152,7 +152,7 @@ class MeFragment : Fragment() {
                 }
             }
 
-            if (textWeight.text.isNotEmpty() && textHeight.text.isNotEmpty()) {
+            if (textWeight.text.toString() != "—" && textHeight.text.toString() != "—") {
                 textBmi.text =
                     (textWeight.text.toString().toDouble() / (textHeight.text.toString().toDouble() / 100).pow(2.0)).let {
                         Utils.doubleToStringWithOneDecimal(it)

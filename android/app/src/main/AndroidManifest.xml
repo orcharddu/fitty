@@ -30,6 +30,7 @@
                 android:name=".ui.camera.CameraInferenceActivity"
                 android:exported="false"
                 android:screenOrientation="portrait"
+                android:windowFullscreen="true"
                 android:theme="@style/Theme.Fitty.TransparentStatusBar"
                 tools:ignore="LockedOrientationActivity" />
 

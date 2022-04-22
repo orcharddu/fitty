@@ -65,7 +65,7 @@ class WordLadderActivity : AppCompatActivity() {
                                     false
                                 }
                                 Result.NOT_ONE_LETTER_DIFFERENCE -> {
-                                    Toast.makeText(applicationContext, "The word does not have only one different letter!", Toast.LENGTH_LONG).show()
+                                    Toast.makeText(applicationContext, "The word should have only one different letter!", Toast.LENGTH_LONG).show()
                                     false
                                 }
                                 else -> false
@@ -75,7 +75,7 @@ class WordLadderActivity : AppCompatActivity() {
                 })
             }
 
-            btnHint.setText("HINT (AVAILABLE ${availableHints()})")
+            btnHint.setText("REMAINING HINTS: ${availableHints()}")
             btnHint.setOnClickListener {
                 checkValidate(words).also { (result, progress) ->
                     when (result) {
@@ -95,7 +95,7 @@ class WordLadderActivity : AppCompatActivity() {
                             DataHolder.instance().dailyEvents().hintCount++
                             (recyclerview.adapter as WordsRecyclerViewAdapter?)?.progress = progress + 1
                             recyclerview.adapter?.notifyDataSetChanged()
-                            btnHint.setText("HINT (AVAILABLE ${availableHints()})")
+                            btnHint.setText("REMAINING HINTS: ${availableHints()}")
                         }
                     }
                 }
