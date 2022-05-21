@@ -28,10 +28,8 @@ import com.github.mikephil.charting.formatter.ValueFormatter
 import com.orcharddu.fitty.R
 import com.orcharddu.fitty.databinding.MainFragmentTodayBinding
 import com.orcharddu.fitty.dataholder.DataHolder
-import com.orcharddu.fitty.dataholder.Resources
 import com.orcharddu.fitty.model.Activity
-import com.orcharddu.fitty.model.Exercise
-import com.orcharddu.fitty.ui.challenge.WordLadderActivity
+import com.orcharddu.fitty.ui.puzzle.WordLadderActivity
 import com.orcharddu.fitty.ui.main.adapter.ActivityHistoryRecyclerViewAdapter
 import com.orcharddu.fitty.ui.main.adapter.ExercisePlanRecyclerViewAdapter
 import com.orcharddu.fitty.ui.main.bottomsheet.ExercisePlanBottomSheetDialog

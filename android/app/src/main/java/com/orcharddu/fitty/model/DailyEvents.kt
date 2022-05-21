@@ -1,5 +1,6 @@
 package com.orcharddu.fitty.model
 
+import com.orcharddu.fitty.dataholder.Puzzles
 import java.io.Serializable
 
 class DailyEvents(
@@ -13,7 +14,7 @@ class DailyEvents(
 ) : Serializable {
 
     init {
-        answer = listOf("head", "heal", "teal", "tell", "tall", "tail")
+        answer = Puzzles.puzzles.random()
         words = answer.mapIndexed { index, s ->
             if (index == 0 || index == answer.lastIndex) s else ""
         }.toMutableList()
